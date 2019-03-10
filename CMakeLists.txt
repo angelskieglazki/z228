@@ -3,4 +3,4 @@ project(z228)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(z228 main.cpp helpers.cpp helpers.h)
+add_executable(z228 main.cpp helpers.cpp helpers.h registers.cpp registers.h memory.cpp memory.h)
